@@ -36,7 +36,7 @@ class App < Sinatra::Base
     when 'add'
       return (@number1 + @number2).to_s
     when 'subtract'
-      return @number1 - @number2
+      return (@number2 - @number1).to_s
     when 'multiply'
       return @number1 * @number2
     when 'divide'
